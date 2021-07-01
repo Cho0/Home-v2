@@ -11,24 +11,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<header class="page-header">	
+	<header class="page-header">
 		<img src="imgs/choobanner.jpg" alt="logo" class="page-header__item">
-		
+
 		<nav role="menubar" class="navigation-list page-header__item">
+		<ul>
 			<li role="presentation">
 				<a href="index.html" role="menuitem" class="navigation-list__item navigaiton-list__item--active">Home</a>
 			</li>
-			<li role="presentation">	
+			<li role="presentation">
 				<a href="about-me.html" role="menuitem" aria-label="about-page" class="navigation-list__item">About</a>
 			</li>
-			<li role="presentation">	
+			<li role="presentation">
 				<a href="contact-jason-choo.html" role="menuitem" class="navigation-list__item">Contact
-				</a>	
-			</li>	
+				</a>
+			</li>
 			<li role="presentation">
 				<a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
 			</li>
-		</nav>		
+		</ul>
+		</nav>
 </header>
 
 <hr>
@@ -47,19 +49,21 @@
 		<hr/>
 		Contact me <a href="mailto:choojason7@gmail.com">here!<a>
 	</div>
+
 	<div>
 		<form action="" method="post">
-			<label class="standard-lable" for="email">E-mail: </label>
+			<label class="standard-label" for="email">E-mail: </label>
 			<input id="email" required>
 
-			<label class="standard-lable" for="tel">Telephone: </label>
+			<label class="standard-label" for="tel">Telephone: </label>
 			<input id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
 
-			<label class="standard-lable" for="message">Message: </label>
+			<label class="standard-label" for="message">Message: </label>
 			<textarea id="message" maxlength="250" required></textarea>
 
 			<input class="send-message" type="submit" value="Send message">
-		</form>	
-<script src="js/tota11y.min.js"></script>
+		</form>
+	</div>
+		<script src="js/tota11y.min.js"></script>
 </body>
 </html>
