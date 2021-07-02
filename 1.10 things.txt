@@ -1,0 +1,9 @@
+
+List of issues
+
+1) On internet explorer, there are no animations and the grid tag does not work properly.
+2) On internet explorer, links did not work for linkedin, twitter and github.
+3) Everything else worked fine.
+
+I used Atom and used the w3c-validation 0.4.0
+
