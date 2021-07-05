@@ -352,3 +352,15 @@ button:focus,
 	-webkit-animation: 34s cloud-move-reverse infinite alternate linear;
 	        animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.contact-header {
+	text-align: center;
+}
+
+.form {
+	text-align: center;
+}
+
+.contact-info {
+	text-align: center;
+}
